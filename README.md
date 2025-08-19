@@ -12,11 +12,11 @@ sudo apt install wireguard -y
 <img width="1209" height="1361" alt="Screenshot 2025-08-16 113031" src="https://github.com/user-attachments/assets/7e23c895-d36c-4805-a4ac-a2faea75e8cc" />
 <img width="1082" height="977" alt="Screenshot 2025-08-16 113113" src="https://github.com/user-attachments/assets/57e248e0-9143-4671-9d63-c3cf665dd754" />
 
-2# Client Setup (Windows)
+2. Client Setup (Windows)
 
-1. Install WireGuard from [https://www.wireguard.com/install/](https://www.wireguard.com/install/)
+- Install WireGuard from [https://www.wireguard.com/install/](https://www.wireguard.com/install/)
 
-2. Generate client keys (on server or client):
+- Generate client keys (on server or client):
    ```bash
    wg genkey | tee client_private.key | wg pubkey > client_public.key
 [Interface]
